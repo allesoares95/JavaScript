@@ -52,6 +52,7 @@ buttonAdicionar.addEventListener("click", function(event) {
   var altura = form.altura.value;
   var gordura = form.gordura.value;
 
+  // adicionando um elemento filho dentro de um elemento pai
   var pacienteTr = document.createElement("tr");
 
   var nomeTd = document.createElement("td");
