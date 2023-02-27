@@ -22,11 +22,11 @@ buttonAdicionar.addEventListener("click", function (event) {
   // Criação de elemento filho dentro do elemento pai no form;
   var pacienteTr = montaTr(paciente);
 
-  var erro = validaPaciente(paciente);
+  var error = validaPaciente(paciente);
 
-  if (erro.length > 0) {
+  if (error.length > 0) {
     var mensagemErro = document.querySelector("#mensagem-erro");
-    mensagemErro.textContent = erro;
+    mensagemErro.textContent = error;
     return;
   }
 
