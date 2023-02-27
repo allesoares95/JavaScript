@@ -22,6 +22,14 @@ buttonAdicionar.addEventListener("click", function (event) {
   // Criação de elemento filho dentro do elemento pai no form;
   var pacienteTr = montaTr(paciente);
 
+  var erro = validaPaciente(paciente);
+
+  if (erro.length > 0) {
+    var mensagemErro = document.querySelector("#mensagem-erro");
+    mensagemErro.textContent = erro;
+    return;
+  }
+
   function montaTr(paciente) {
     var pacienteTr = document.createElement("tr");
     pacienteTr.classList.add("paciente");
@@ -48,5 +56,17 @@ buttonAdicionar.addEventListener("click", function (event) {
   tabela.appendChild(pacienteTr);
 
   form.reset();
-
 });
+
+// Paciente invalido;
+function validaPaciente(paciente) {
+  var error = [];
+  if (!validaPeso(paciente.peso)) {
+    error.push("Peso é inválido !")
+  }
+
+  if (!validaAltura(paciente.altura)) {
+    error.push("Altura é inválida !")
+  }
+  return error;
+};

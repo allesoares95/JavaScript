@@ -54,7 +54,7 @@
     insere um elemento filho (children) ao elemento pai (parent) na última posição, ela auxilia na criação de um elemento DOM
 ---
 
-  #
+  # push()
 
 ---
 
