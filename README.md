@@ -55,12 +55,53 @@
 ---
 
   ## push()
+    A função push para colocar elementos dentro de um array
+---
 
   ## for()
+    determina que uma ação deve ser executada a partir de uma condição inicial até que seja encontrada outra que interrompa o laço. O fluxo de repetição é controlado por uma variável, que é testada a cada repetição até que se encontre a condição de parada.
+---
 
   ## forEach()
+    é executar uma função callback em todos os elementos de um array. Por isso, ela é passada como parâmetro para a execução do loop.
+---
 
   ## innerHTML 
+    innerHTML é uma propriedade, não uma função, então ela recebe o novo conteúdo, ou seja, utilizamos um sinal de igual (=)
+    document.querySelector("#id").innerHTML = "Novo texto"
+
+    E para obter o HTML interno, fazemos:
+    ObjetoDeUmElementoHTML.innerHTML
+
+    O seu retorno será todo o conteúdo HTML, tanto tags, atributos, classes, etc, no formato de uma String.
+---
+
+  ## this
+    Primeiramente, é preciso saber que todas as funções em JavaScript têm propriedades, assim como os objetos têm propriedades. E quando uma função é executada, ela obtém a propriedade this — uma variável com o valor do objeto que invoca a função na qual this é usado.
+
+    this é usado dentro de uma função (digamos função “A”) e ele contém o valor do objeto que invoca a função A. Isso é preciso para acessar métodos e propriedades do objeto que invoca a função A, especialmente porque nem sempre é possível saber o nome do objeto invocador e, às vezes, não há nenhum nome para usar para se referir ao objeto invocando. Na verdade, this é realmente apenas um atalho-referência ao “objeto antecedente” (ou o objeto invocador);
+
+    ```js
+    var person = {
+        firstName    : "Penelope",
+        lastName     : "Barrymore",
+        // Já que a palavra-chave "this" é usada dentro do método showFullName() abaixo e este método 
+        // é definido no objeto "person", "this" terá o valor do objeto "person" porque este 
+        // invocará showFullName()​.
+        showFullName : function() {
+            console.log ( this.firstName + ' ' + this.lastName );
+        }
+    }
+    ​
+    person.showFullName(); // Penelope Barrymore 
+    ```
+---
+
+  ## .remove()
+    ele irá executar a função remove imediatamente.
+
+  ## parentNode;
+
 
 ---
 
