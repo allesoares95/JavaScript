@@ -100,11 +100,22 @@
   ## .remove()
     ele irá executar a função remove imediatamente.
 
-  ## parentNode;
-
+---
 
   ## setTimeout()
+    O  método setTimeout() define um cronômetro que executa uma função ou trecho de código especificado assim que expira. O setTimeout, por padrão, executa o código somente uma vez.
+---
 
+  ## RegExp()
+   O construtor RegExp cria um objeto de expressão regular para realizar uma correspondência de texto com um padrão.
+
+   Há dois modos de criar um objeto RegExp: uma notação literal e um construtor. Para indicar strings, os parâmetros para a notação literal não usam aspas, enquanto os parâmetros para a função do construtor usam.
+
+   O primeiro parâmetro que devemos passar para o construtor é o padrão (o texto da expressão regular, o que deve ser buscado) e o segundo parâmetro são uma ou mais flags (representando como queremos que a expressão regular busque). Por exemplo, podemos definir que não queremos que haja distinção entre letras maiúsculas e minúsculas, através da flag i.
+
+---
+  
+  ##
 
 ---
 

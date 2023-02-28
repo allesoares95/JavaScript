@@ -20,6 +20,13 @@
 	<main>
 		<section class="container">
 			<h2>Meus pacientes</h2>
+			<label for="filtrar-tabela">Buscar</label>
+			<input 
+				type="text" 
+				name="filtro" 
+				id="filtrar-tabela" 
+				placeholder="Digite o nome do paciente"
+			/>
 			<table>
 				<thead>
 					<tr>
@@ -69,6 +76,55 @@
 						<td class="info-gordura">19</td>
 						<td class="info-imc">0</td>
 					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Alexandre</td>
+						<td class="info-peso">80</td>
+						<td class="info-altura">1.70</td>
+						<td class="info-gordura">25</td>
+						<td class="info-imc">0</td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Joycy</td>
+						<td class="info-peso">75</td>
+						<td class="info-altura">1.65</td>
+						<td class="info-gordura">20</td>
+						<td class="info-imc">0</td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Sabrina</td>
+						<td class="info-peso">50</td>
+						<td class="info-altura">1.59</td>
+						<td class="info-gordura">12</td>
+						<td class="info-imc">0</td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Aline</td>
+						<td class="info-peso">85</td>
+						<td class="info-altura">1.65</td>
+						<td class="info-gordura">26</td>
+						<td class="info-imc">0</td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Morais</td>
+						<td class="info-peso">85</td>
+						<td class="info-altura">1.75</td>
+						<td class="info-gordura">20</td>
+						<td class="info-imc">0</td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Francisco Silva</td>
+						<td class="info-peso">75</td>
+						<td class="info-altura">1.70</td>
+						<td class="info-gordura">14</td>
+						<td class="info-imc">0</td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Maria Silva</td>
+						<td class="info-peso">55</td>
+						<td class="info-altura">1.60</td>
+						<td class="info-gordura">13</td>
+						<td class="info-imc">0</td>
+					</tr>
 				</tbody>
 			</table>
 
@@ -105,6 +161,7 @@
 	<script src="./js/calculation-imc.js"></script>
 	<script src="./js/form.js"></script>
 	<script src="./js/remove.js"></script>
+	<script src="./js/filtro.js"></script>
 </body>
 
 </html>
