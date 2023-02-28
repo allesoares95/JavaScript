@@ -103,6 +103,9 @@
   ## parentNode;
 
 
+  ## setTimeout()
+
+
 ---
 
 ### Como Utilizar e para que serve ?
