@@ -1,3 +1,32 @@
+# Tabela de pacientes
+
+<div align="center" >
+  <img 
+  src="./img/projeto.svg" 
+  width="500"
+  height="400"
+  />
+</div>
+
+  # Estudos de JavaScript
+    Nesse projeto foi ensinado a manipular os elementos de sua página.
+    Trabalhe bem com eventos do navegador.
+    Entenda como utilizar e validar formulários.
+    Conheça boas práticas de organização de código Javascript.
+    Busque dados em outro servidor com AJAX.
+
+    Variáveis e operadores.
+    Arrays, loop e estilos.
+    Eventos, formulários e criando elementos.
+    Boas práticas com javascript.
+    Validação de formulários.
+    Remoção, delegação e animação.
+    Filtrando tabela.
+    Buscando paciente com AJAX.
+
+  [Acesse o Projeto](https://allesoares95.github.io/JavaScript/)  
+
+---
 
   JavaScript -> é uma linguagem que, além de ser a padrão nos navegadores atuas, vem expandindo para outras áreas como servidores, banco de dados e até plataformas de Internet of Things (IoT).
 
