@@ -1,4 +1,3 @@
-# JavaScript : Programando na linguagem da web
 
   JavaScript -> é uma linguagem que, além de ser a padrão nos navegadores atuas, vem expandindo para outras áreas como servidores, banco de dados e até plataformas de Internet of Things (IoT).
 
@@ -114,10 +113,6 @@
    O primeiro parâmetro que devemos passar para o construtor é o padrão (o texto da expressão regular, o que deve ser buscado) e o segundo parâmetro são uma ou mais flags (representando como queremos que a expressão regular busque). Por exemplo, podemos definir que não queremos que haja distinção entre letras maiúsculas e minúsculas, através da flag i.
 
 ---
-  
-  ##
-
----
 
 ### Como Utilizar e para que serve ?
 
@@ -142,4 +137,40 @@
   var titulo = document.querySelector("h1");
   titulo.textContent = "alteração";
   ```
+
+
+# Introdução AJAX
+
+  AJAX significa Asynchronous JavaScript and XML, ou JavaScript e XML Assíncronos, em bom português. Ele é um conjunto de técnicas de desenvolvimento voltado para a web que permite que aplicações trabalhem de modo assíncrono, processando qualquer requisição ao servidor em segundo plano.
+
+  O JavaScript é uma linguagem de programação bem conhecida. Entre suas funcionalidades, está a capacidade de gerenciar conteúdos dinâmicos de um site e permitir a interação dinâmica com o usuário. O XML  (eXtensible Markup Language), como o nome sugere, é uma variação de linguagem de marcação no estilo do HTML. Enquanto o HTML é utilizado para exibir dados, o XML os armazena e transmite.
+
+  Tanto o JavaScript quanto o XML trabalham de forma assíncrona no AJAX. Assim, qualquer aplicação que use AJAX pode enviar e receber dados do servidor sem precisar recarregar a página inteira.
+
+  ## Como o AJAX funciona ?
+  É importante lembrar que o AJAX não é uma única tecnologia, ou até mesmo uma linguagem de programação. O AJAX é uma série de técnicas de desenvolvimento voltadas para web. O sistema geralmente é composto por:
+
+    - HTML/XHTML para linguagem principal e CSS para a apresentação.
+
+    - O Document Object Model (DOM) para exibição dinâmica dos dados e interação.
+
+    - XML para a troca de dados e XSLT para a manipulação. Muitos desenvolvedores começaram a substituir pelo JSON por ser mais semelhante ao JavaScript.
+
+    - O objeto XMLHttpRequest para a comunicação assíncrona.
+
+    - Finalmente, a linguagem de programação JavaScript para juntar todas essas tecnologias.
+
+---
+
+  ## XMLHttpRequest()
+    Criação de uma requisição HTTP com o Javascript.
+
+    O objeto XMLHttpRequest é quem é responsável por fazer requisições HTTP assíncronas com Javascript. Apesar de ter o XML no nome hoje em dia este objeto pode trafegar diversos outros tipos de dados além do XML, este nome só se manteve devido a um legado histórico.
+
+    E para instanciar um novo Objeto XMLHttpRequest devemos utilizar a sintaxe com a palavrinha new :
+
+    ```js
+    var xhr = new XMLHttpRequest();
+    ```
+---
 
